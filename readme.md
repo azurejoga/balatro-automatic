@@ -53,7 +53,7 @@ You can choose one of the following methods to install the script:
    ```
 
 #### Using the Executable
-
+# ! run the executable as administrator for it to work!
 1. Download the latest version of the executable [here](https://github.com/azurejoga/balatro-automatic/raw/master/balatro-install.exe)
 2. You can check the security of the executable at [VirusTotal](https://www.virustotal.com/gui/file/6a83d830c5fc363a5b0261909d9da1a281c018208c6336e3a84355144b485924?nocache=1)
 
