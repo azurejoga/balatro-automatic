@@ -123,3 +123,4 @@ If you want to contribute to development or improve support for macOS:
 
 - Documentation and installation script: **AzureJoga**.
 - Review: **Sightless Kombat**. Check out Balatro's [review](https://reviews.sightlesskombat.com/Bal.shtml)
+- Tester: **Matrheine** matrheine@gmail.com
