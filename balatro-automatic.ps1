@@ -4,7 +4,7 @@
 # Function to ensure the script is running as administrator
 function Ensure-Admin {
     if (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) {
-        Write-Host "Este script requer permissões de administrador. Reiniciando como administrador..."
+        Write-Host "This script requires administrator permissions. Restarting as administrator..."
         Start-Process -FilePath "powershell" -ArgumentList "-Command & {Start-Process PowerShell -ArgumentList '-NoProfile -ExecutionPolicy Bypass -File `"$($MyInvocation.MyCommand.Path)`"' -Verb RunAs}" -Verb RunAs
         Exit
     }
