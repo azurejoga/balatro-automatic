@@ -1,16 +1,6 @@
 # Script made by azurejoga, https://github.com/azurejoga
 # From the accessibility group in games for the blind, Eternal Legend, https://eternal-legend.com.br
 
-# Function to ensure the script is running as administrator
-function Ensure-Admin {
-    if (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) {
-        Write-Host "This script requires administrator permissions. Restarting as administrator..."
-        Start-Process -FilePath "powershell" -ArgumentList "-Command & {Start-Process PowerShell -ArgumentList '-NoProfile -ExecutionPolicy Bypass -File `"$($MyInvocation.MyCommand.Path)`"' -Verb RunAs}" -Verb RunAs
-        Exit
-    }
-}
-Ensure-Admin
-
 # Configure execution policy to allow all scripts
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Unrestricted -Force
 
