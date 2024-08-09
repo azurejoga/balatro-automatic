@@ -91,7 +91,7 @@ For those just starting out on Balatro, here are some tips and tricks to help on
 - **E**: View of the open deck.
 - **Z**: Sell card.
 - **V**: Buy card or use consumable.
-- **Guide**: Open execution information.
+- **Tabe**: Open execution information.
 
 ### Tips
 
