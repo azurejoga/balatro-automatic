@@ -56,7 +56,7 @@ function Extract-Zip {
 
 # Function to install Lovely Injector
 function Install-LovelyInjector {
-    $url = "https://github.com/ethangreen-dev/lovely-injector/releases/download/v0.5.0-beta3/lovely-x86_64-pc-windows-msvc.zip"
+    $url = "https://github.com/ethangreen-dev/lovely-injector/releases/download/v0.5.0-beta7/lovely-x86_64-pc-windows-msvc.zip"
     $zipPath = [System.IO.Path]::Combine($downloadsPath, 'lovely.zip')
     $extractPath = [System.IO.Path]::Combine($downloadsPath, 'lovely')
 
